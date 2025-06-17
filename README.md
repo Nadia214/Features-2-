@@ -121,6 +121,7 @@ Use to interpret or explain model behavior — not for selection directly.
 ---
 
 2. Tree-Based Models (sklearn.tree and sklearn.ensemble)
+
 | Model                             | Use Case   |
 | --------------------------------- | ---------- |
 | **DecisionTreeRegressor**         | Regression |
@@ -131,23 +132,31 @@ Use to interpret or explain model behavior — not for selection directly.
 | **HistGradientBoostingRegressor** | Regression |
 
 
+
 3. Support Vector & Neighbors
+
 | Model                              | Use Case   |
 | ---------------------------------- | ---------- |
 | **SVR** (Support Vector Regressor) | Regression |
 | **KNeighborsRegressor**            | Regression |
 
+
 ---
 4. Neural Network
+
 | Model            | Use Case   |
 | ---------------- | ---------- |
 | **MLPRegressor** | Regression |
+
+
 ---
 5. Other Popular Libraries
+
 | Model             | Use Case   |
 | ----------------- | ---------- |
 | **XGBRegressor**  | Regression |
 | **LGBMRegressor** | Regression |
+
 
 ---
 
