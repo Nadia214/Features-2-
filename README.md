@@ -104,4 +104,3 @@ Use to interpret or explain model behavior — not for selection directly.
 
 ---
 
-Let me know if you’d like a companion notebook for SHAP, Boruta, and mRMR comparison!
