@@ -103,4 +103,52 @@ Use to interpret or explain model behavior — not for selection directly.
 * 🧪 Use SHAP or Permutation Importance to **validate** feature selection decisions.
 
 ---
+1. Linear Models (sklearn.linear_model)
+
+| Model                          | Use Case            |
+| ------------------------------ | ------------------- |
+| **LinearRegression**           | Regression          |
+| **Ridge**                      | Regression          |
+| **Lasso**                      | Regression          |
+| **ElasticNet**                 | Regression          |
+| **BayesianRidge**              | Regression          |
+| **HuberRegressor**             | Regression (robust) |
+| **PassiveAggressiveRegressor** | Regression          |
+| **TheilSenRegressor**          | Regression (robust) |
+| **RANSACRegressor**            | Regression (robust) |
+| **SGDRegressor**               | Regression          |
+
+---
+
+2. Tree-Based Models (sklearn.tree and sklearn.ensemble)
+| Model                             | Use Case   |
+| --------------------------------- | ---------- |
+| **DecisionTreeRegressor**         | Regression |
+| **RandomForestRegressor**         | Regression |
+| **ExtraTreesRegressor**           | Regression |
+| **GradientBoostingRegressor**     | Regression |
+| **AdaBoostRegressor**             | Regression |
+| **HistGradientBoostingRegressor** | Regression |
+
+
+3. Support Vector & Neighbors
+| Model                              | Use Case   |
+| ---------------------------------- | ---------- |
+| **SVR** (Support Vector Regressor) | Regression |
+| **KNeighborsRegressor**            | Regression |
+
+---
+4. Neural Network
+| Model            | Use Case   |
+| ---------------- | ---------- |
+| **MLPRegressor** | Regression |
+---
+5. Other Popular Libraries
+| Model             | Use Case   |
+| ----------------- | ---------- |
+| **XGBRegressor**  | Regression |
+| **LGBMRegressor** | Regression |
+
+---
+
 
